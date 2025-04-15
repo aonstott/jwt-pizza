@@ -32,3 +32,7 @@ cd C:\Users\aonst\Downloads
 aws cloudformation delete-stack --stack-name jwtpizzaservice --region us-east-1
 aws rds stop-db-instance --db-instance-identifier jwt-pizza-service-db --region us-east-1
 ```
+
+### Final Result
+
+After building these scripts, I can now start and delete my production app with one console command instead of going through the AWS console. This saves a few minutes each time I need to do it, which adds up very quickly over time.
